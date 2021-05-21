@@ -3,7 +3,6 @@
 int main(){
 
     int mode = 0;
-    int count = 0;
 
     printf("Welcome to the stack program.\n\n");
 
