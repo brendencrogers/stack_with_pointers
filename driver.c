@@ -13,14 +13,14 @@ int main(){
         printf("Enter option: ");
         scanf("%c", &key);
 
-        if (key == 'u'){
+        if (key == 'u') {
             int num;
             printf("What number? ");
             scanf("%d", &num);
             if (push(num) == 1) {
                 printf("Overflow!!");
-            }      /* Fix to check for overflow/underflow */
-            printstack(mode);  /* FIX THIS TO MODE */
+            }      
+            printstack(mode);
             printf("\n");
         }
 
